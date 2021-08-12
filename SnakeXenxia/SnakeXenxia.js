@@ -2,7 +2,7 @@ var canvas = document.querySelector('canvas');
 
 canvas.width = window.innerWidth * 0.9;
 canvas.height = window.innerHeight * 0.8;
-canvas.style = 'border:1px solid; position:relative; left:5%; top:15%; background-color : #D9E8F5;';
+canvas.style = 'border:1px solid; position:relative; left:5%; top:0%; background-color : #D9E8F5;';
 
 var c = canvas.getContext('2d');
 var flag = true;

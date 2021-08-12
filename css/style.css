@@ -1,0 +1,86 @@
+body{
+    font-family: 'Calibri';
+    padding: 0px;margin:0px;
+    abackground-color: #48cae4;
+    background-color: rgba(0,0,255,0.1);
+}
+
+a,p{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+ }
+ p{padding-left: 1%;}
+
+ .goback{
+    padding-left: 0%;
+    margin-left: 1%;
+    text-decoration: underline;
+    
+ }
+.instruction{
+    text-align: center;
+}
+.thumb{
+    height: 150px;
+    width: 250px;
+    border: 1px solid black;
+    box-shadow: 2px 2px grey;
+}
+
+.grid-container{
+display:grid;
+grid-template-columns: auto auto;
+padding: 10px;
+}
+
+.grid-item{
+    text-align: center;
+    padding: 20px;
+}
+.rainSim{
+    background-color: black !important;
+}
+
+.rainSim a{
+    color:white !important;
+}
+
+.head{
+    position:relative;
+    top:0;left:0;width: 100%;
+    background-color: #023e8a;
+    text-align:center;
+    color:white;
+    box-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px black;
+}
+#profile{font-size:15px;}
+#title{font-size:40px;font-weight: 500;}
+
+.footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: #023e8a;
+    text-align:center;
+    box-shadow: -1px -1px 3px black;
+}
+
+#footnote{
+    color:white;
+    font-size:15px;
+    font-weight: 500;
+}
+#footnote a{
+    color:yellow;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#footnote a:hover{
+    color:yellow;
+    font-weight: 500;
+    font-size: 18px;
+}

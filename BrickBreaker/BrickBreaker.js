@@ -2,7 +2,7 @@ var canvas = document.querySelector('canvas');
 
 canvas.width = window.innerWidth * 0.9;
 canvas.height = window.innerHeight * 0.8;
-canvas.style = 'border:1px solid; position:relative; left:50px;';
+canvas.style = 'border:1px solid; position:relative; left:5%; top:0%; background-color:white; box-shadow:1px 1px 3px';
 
 var cwidth = canvas.width;
 var cheight = canvas.height;
